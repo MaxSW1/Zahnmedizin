@@ -1,0 +1,15 @@
+filters:
+  and:
+    - type == "knowledge-hub"
+views:
+  - type: table
+    name: Hub-Kategorien
+    order:
+      - file.name
+      - kategorie
+      - episoden-count
+      - neueste-quelle
+      - aelteste-quelle
+      - letzte-aktualisierung
+    summaries:
+      episoden-count: Sum

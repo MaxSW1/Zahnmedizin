@@ -1,0 +1,12 @@
+filters:
+  and:
+    - type == "praxiskonzept"
+views:
+  - type: cards
+    name: Praxiskonzepte
+    order:
+      - file.name
+      - gruender
+      - rechtsform
+      - standorte
+      - spezialisierung

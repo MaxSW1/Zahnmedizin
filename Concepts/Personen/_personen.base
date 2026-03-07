@@ -1,0 +1,17 @@
+filters:
+  and:
+    - type == "person"
+formulas:
+  episoden_count: if(episoden, episoden.length, 0)
+properties:
+  formula.episoden_count:
+    displayName: Episoden
+views:
+  - type: table
+    name: Alle Personen
+    order:
+      - file.name
+      - rolle
+      - unternehmen
+      - formula.episoden_count
+      - expertise
