@@ -1,0 +1,38 @@
+filters:
+  and:
+    - type == "episode-zusammenfassung"
+formulas:
+  alter: (now() - date(erschienen + "-01")).days
+  alter_text: if(erschienen, date(erschienen + "-01").relative(), "")
+properties:
+  quelle:
+    displayName: Quelle
+  formula.alter_text:
+    displayName: Alter
+views:
+  - type: table
+    name: Alle Episoden
+    groupBy:
+      property: quelle
+      direction: ASC
+    order:
+      - file.name
+      - quelle
+      - erschienen
+      - status
+      - kategorien
+      - personen
+    columnSize:
+      file.name: 117
+      note.quelle: 91
+      note.erschienen: 124
+      note.status: 106
+      note.kategorien: 115
+  - type: table
+    name: Zuletzt analysiert
+    order:
+      - file.name
+      - quelle
+      - erschienen
+      - analysiert
+      - status
