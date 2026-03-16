@@ -34,7 +34,7 @@ Episode-Zusammenfassungen lesen, wenn mehr Kontext nötig ist.
 ### Stufe 5 — Transkript (nur wenn wirklich nötig)
 Das strukturierte Transkript lesen — nur als letzte Stufe, nie als erste.
 
-**Bei Fragen zu Personen oder Praxen**: Zuerst den entsprechenden Index (`Concepts/Personen/_personen-index.md` oder `Concepts/_praxiskonzepte-index.md`) lesen, dann das passende Profil.
+**Bei Fragen zu Personen oder Praxen**: Zuerst den entsprechenden Index (`Praxis-Konzepte/Personen/_personen-index.md` oder `Praxis-Konzepte/_praxiskonzepte-index.md`) lesen, dann das passende Profil.
 
 ## Regeln für die Antwort
 

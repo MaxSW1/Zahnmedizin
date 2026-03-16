@@ -1,9 +1,9 @@
 ---
 type: hub-kategorie
 titel: "Personal und Vergütung"
-themen: ["Recruiting", "Vergütungsmodelle", "Mitarbeiterbindung", "Transparenz", "Niederlassungsquote", "Angestelltenverhältnis"]
-episoden-count: 2
-letzte-aktualisierung: 2026-02-21
+themen: ["Recruiting", "Vergütungsmodelle", "Mitarbeiterbindung", "Transparenz", "Niederlassungsquote", "Angestelltenverhältnis", "Generation Z", "Work-Life-Balance", "Schichtsystem", "Teilzeitmodelle", "Feminisierung"]
+episoden-count: 3
+letzte-aktualisierung: 2026-03-10
 ---
 
 # Personal und Vergütung
@@ -77,3 +77,41 @@ CMD-Zentrum Hamburg-Eppendorf: ZFA aus Armenien, Kroatien, Serbien, Iran, Polen,
 - **Kollegialer Austausch**: Große Teams ermöglichen fachlichen Austausch und Zweitmeinungen
 
 > Quelle: [[Resource Analysis/Praxisfluesterer/ep-002-die-visionaere-alldent-gruender/transkript-strukturiert#Das AllDent-Konzept: Qualität zum fairen Preis|Praxisflüsterer Ep. 2 (Dez. 2020)]]
+
+## Generation Z: Work-Life-Balance und flexible Arbeitsmodelle
+
+### Ansprüche der Generation Z [Stand: Jan. 2022]
+
+- **Work-Life-Balance** als zentrales Thema (branchenübergreifend, nicht nur Zahnmedizin)
+- **Feminisierung der Zahnmedizin**: Uni Witten z.B. 80-85% weibliche Absolventinnen in den Abschlussjahrgängen
+- **Familienplanung**: Typisch Kinder mit 30-31, 1-2 Jahre Auszeit, Wiedereinstieg in Teilzeit
+- **30-30-Modell**: Beide Eltern arbeiten 30 Stunden (statt klassisch 60-0) → braucht flexible Praxisstrukturen
+- Kaum noch Vollzeit-40h-Zahnärzte zu finden
+
+> Quelle: [[Resource Analysis/Denta1 Clinic - Dr. Stefan Helka/2022-01-3-trends-zahnaerzte-teil-1/transkript-strukturiert#Generation Z: Work-Life-Balance und Schichtsysteme|Denta1 Clinic: 3 Trends Teil 1 (Jan. 2022)]]
+
+### Schichtsystem-Einführung als Change-Prozess
+
+Einführung eines Schichtsystems (z.B. 7-20 Uhr statt 8-16 Uhr) ist eine der größten Hürden für Praxen:
+
+**Hürden:**
+1. Mitarbeiterkommunikation — Team muss Flexibilität akzeptieren
+2. Chef muss selbst mitmachen (Vorbildfunktion)
+3. Wachstum nötig, um den "Jump" ins Schichtsystem zu finanzieren
+4. Bereitschaft, Patienten/Umsatz an angestellte Zahnärzte abzugeben
+
+**Optionen:**
+- Samstags öffnen (nur Privatzuzahlung: Bleaching, Prophylaxe, VIP)
+- Nicht nur Inzentivierung, sondern auch Identifikation mit dem Unternehmen
+
+> Quelle: [[Resource Analysis/Denta1 Clinic - Dr. Stefan Helka/2022-01-3-trends-zahnaerzte-teil-1/transkript-strukturiert#Generation Z: Work-Life-Balance und Schichtsysteme|Denta1 Clinic: 3 Trends Teil 1 (Jan. 2022)]]
+
+### Teilzeit-Tetris: Größe als Vorteil
+
+Helkas Analogie: Teilzeitstellen besetzen ist wie Tetris — je breiter die Reihe (= je größer die Praxis), desto leichter lassen sich "krumme Blöcke" ausgleichen.
+
+- **Kleine Praxis** (5 Zimmer, 4 VZ-Behandler): Jeder Teilzeitwechsel erzeugt sofort Auslastungslöcher ("Schweizer Käse")
+- **Große Praxis**: Viel leichter, verschiedene Teilzeitmodelle zu kombinieren, ohne Auslastung zu verlieren
+- Struktureller Vorteil für größere Einheiten beim Anbieten flexibler Arbeitsmodelle
+
+> Quelle: [[Resource Analysis/Denta1 Clinic - Dr. Stefan Helka/2022-01-3-trends-zahnaerzte-teil-1/transkript-strukturiert#Generation Z: Work-Life-Balance und Schichtsysteme|Denta1 Clinic: 3 Trends Teil 1 (Jan. 2022)]]

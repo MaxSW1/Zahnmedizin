@@ -1,0 +1,38 @@
+/* Custom callouts for Zahnmedizin vault */
+/* Obsidian uses Lucide icons: https://lucide.dev/icons/ */
+
+/* MEMORIZE — red, brain icon */
+.callout[data-callout="memorize"] {
+  --callout-color: 220, 38, 38;
+  --callout-icon: brain;
+}
+
+/* CONCEPT — purple, lightbulb icon */
+.callout[data-callout="concept"] {
+  --callout-color: 147, 51, 234;
+  --callout-icon: lightbulb;
+}
+
+/* SPEECH — green, mic icon */
+.callout[data-callout="speech"] {
+  --callout-color: 22, 163, 74;
+  --callout-icon: mic;
+}
+
+/* PREREQ — gray, link icon */
+.callout[data-callout="prereq"] {
+  --callout-color: 107, 114, 128;
+  --callout-icon: link;
+}
+
+/* DIAGRAM — teal, image icon */
+.callout[data-callout="diagram"] {
+  --callout-color: 13, 148, 136;
+  --callout-icon: image;
+}
+
+/* EXPERT — gold, graduation-cap icon */
+.callout[data-callout="expert"] {
+  --callout-color: 202, 138, 4;
+  --callout-icon: graduation-cap;
+}

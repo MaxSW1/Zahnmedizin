@@ -61,8 +61,8 @@ Max muss KEINEN Ordner anlegen und KEINE Namenskonventionen kennen. Claude über
     Transkript strukturiert (14 Abschnitte)
     Zusammenfassung erstellt
     Hub aktualisiert: finanzen, praxiskonzepte (2 Kategorien)
-    Praxiskonzept erkannt: Dental21 → Concepts/Dental21/profil.md
-    Person erkannt: Dr. Stefan Müller → Concepts/Personen/stefan-mueller.md
+    Praxiskonzept erkannt: Dental21 → Praxis-Konzepte/Dental21/profil.md
+    Person erkannt: Dr. Stefan Müller → Praxis-Konzepte/Personen/stefan-mueller.md
     Web-Recherche: 4 Quellen gefunden
     Max-Notizen: max-notizen.md erstellt (leer, wartet auf Max)
     ```
@@ -382,7 +382,7 @@ Neben dem Praxiskonzepte-Ordner gibt es ein **Personen-Verzeichnis** für wieder
     - Neue Expertise-Bereiche hinzufügen
     - Bei widersprüchlichen Infos (z.B. Rollenwechsel): Beide Versionen mit zeitlicher Einordnung dokumentieren
     - Neue `aliases` ergänzen wenn die Person in der neuen Episode anders benannt wird
-  - **Nein** → Neues Profil erstellen unter `Concepts/Personen/vorname-nachname.md`
+  - **Nein** → Neues Profil erstellen unter `Praxis-Konzepte/Personen/vorname-nachname.md`
 - Profil enthält: Steckbrief, Expertise, alle Episoden in denen die Person vorkommt, Web-Recherche-Ergebnisse
 - Querverweise: Profil ↔ Episoden ↔ Praxiskonzept (wenn vorhanden)
 
@@ -395,7 +395,7 @@ Viele Episoden stellen ein konkretes Praxiskonzept vor: Ein Gründer präsentier
 **Wenn `/analyze-episode` erkennt, dass eine Praxis vorgestellt wird**, passiert automatisch:
 
 1. **Praxis identifizieren**: Name der Praxis, Gründer/Inhaber, Standort(e)
-2. **Existenz prüfen**: Gibt es bereits ein Profil für diese Praxis in `Concepts/`?
+2. **Existenz prüfen**: Gibt es bereits ein Profil für diese Praxis in `Resource Analysis/`?
    - **Ja** → Profil ergänzen mit neuen Infos aus dieser Episode
    - **Nein** → Neues Profil erstellen
 3. **Web-Recherche**: Claude sucht automatisch nach:
@@ -403,7 +403,7 @@ Viele Episoden stellen ein konkretes Praxiskonzept vor: Ein Gründer präsentier
    - Weitere Infos zum Gründer (LinkedIn, Interviews, etc.)
    - Größe, Standorte, Spezialisierung
    - Öffentlich verfügbare Informationen zum Geschäftsmodell
-4. **Praxiskonzept-Profil erstellen/updaten** unter `Concepts/[Praxisname]/profil.md`:
+4. **Praxiskonzept-Profil erstellen/updaten** unter `Praxis-Konzepte/[Praxisname]/profil.md`:
    - YAML-Frontmatter mit Steckbrief-Daten (siehe Abschnitt ›YAML-Frontmatter‹)
    - Geschäftsmodell: Rechtsform, Spezialisierung, Alleinstellungsmerkmal
    - Skalierungsstrategie: Wie wurde gewachsen? (Filialen, MVZ, Übernahmen)
@@ -545,6 +545,10 @@ formulas:
 properties:
   quelle:
     displayName: "Quelle"
+  titel:
+    displayName: "Titel"
+  episode:
+    displayName: "Ep."
   formula.alter_text:
     displayName: "Alter"
 
@@ -554,6 +558,8 @@ views:
     order:
       - file.name
       - quelle
+      - titel
+      - episode
       - erschienen
       - status
       - kategorien
@@ -566,13 +572,14 @@ views:
     name: "Zuletzt analysiert"
     order:
       - file.name
+      - titel
       - quelle
       - erschienen
       - analysiert
       - status
 ```
 
-**`Concepts/Personen/_personen.base`** — Alle Personen:
+**`Praxis-Konzepte/Personen/_personen.base`** — Alle Personen:
 ```yaml
 filters:
   and:
@@ -596,7 +603,7 @@ views:
       - expertise
 ```
 
-**`Concepts/_praxiskonzepte.base`** — Alle Praxiskonzepte:
+**`Praxis-Konzepte/_praxiskonzepte.base`** — Alle Praxiskonzepte:
 ```yaml
 filters:
   and:
@@ -778,14 +785,14 @@ Resource Analysis/
 └── Weitere-Quelle/
     └── ...
 
-Concepts/
+Praxis-Konzepte/
 ├── _praxiskonzepte-index.md           # Übersicht aller Praxiskonzepte (verlinkt aus Hub-Index)
 ├── _praxiskonzepte.base               # Obsidian Base: dynamische Praxis-Übersicht
 ├── Personen/                          # Personen-Verzeichnis
 │   ├── _personen-index.md             # Übersicht aller Personen (verlinkt aus Hub-Index)
 │   ├── _personen.base                 # Obsidian Base: dynamische Personen-Übersicht
 │   └── stefan-mueller.md              # Einzelne Datei pro Person (ohne akad. Titel im Dateinamen)
-├── AllDent/                           # (existiert bereits)
+├── AllDent/                           # Praxiskonzept-Profil
 │   └── profil.md
 ├── [Praxisname]/                      # Entsteht automatisch pro erkannter Praxis
 │   └── profil.md
@@ -815,8 +822,8 @@ Diese Checkliste zeigt, was Claude Code bei der Umsetzung erstellen/prüfen muss
 - [ ] Ordnerstruktur anlegen (siehe Abschnitt ›Ordnerstruktur‹)
 - [ ] `Resource Analysis/_knowledge-hub/_hub-index.md` erstellen (leer, mit Frontmatter)
 - [ ] `Resource Analysis/_knowledge-hub/_hub-changelog.md` erstellen (leer, mit Frontmatter)
-- [ ] `Concepts/_praxiskonzepte-index.md` erstellen (leer, mit Frontmatter)
-- [ ] `Concepts/Personen/_personen-index.md` erstellen (leer, mit Frontmatter)
+- [ ] `Praxis-Konzepte/_praxiskonzepte-index.md` erstellen (leer, mit Frontmatter)
+- [ ] `Praxis-Konzepte/Personen/_personen-index.md` erstellen (leer, mit Frontmatter)
 - [ ] `Resource Analysis/_system-overview.md` aktualisieren (falls nötig)
 
 ### Skills erstellen
@@ -827,8 +834,8 @@ Diese Checkliste zeigt, was Claude Code bei der Umsetzung erstellen/prüfen muss
 ### Obsidian Bases erstellen
 - [ ] `Resource Analysis/_episoden.base` (Abschnitt 15)
 - [ ] `Resource Analysis/_knowledge-hub/_hub-dashboard.base` (Abschnitt 15)
-- [ ] `Concepts/_praxiskonzepte.base` (Abschnitt 15)
-- [ ] `Concepts/Personen/_personen.base` (Abschnitt 15)
+- [ ] `Praxis-Konzepte/_praxiskonzepte.base` (Abschnitt 15)
+- [ ] `Praxis-Konzepte/Personen/_personen.base` (Abschnitt 15)
 
 ### Dokumentation synchronisieren
 - [ ] `CLAUDE.md` Abschnitt Knowledge-System aktualisieren

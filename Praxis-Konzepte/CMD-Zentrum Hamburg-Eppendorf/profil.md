@@ -68,4 +68,4 @@ Organisches Wachstum von innen heraus. Keine aktive Personalsuche — Bewerbunge
 
 ## Episoden
 
-- [[Resource Analysis/Praxisfluesterer/ep-003-der-erfinder-oliver-ahlers/zusammenfassung|Praxisflüsterer Ep. #3: Der Erfinder (Jan. 2021)]]
+- [[Resource Analysis/Praxisfluesterer/ep-003-der-erfinder-oliver-ahlers/der-erfinder-oliver-ahlers|Praxisflüsterer Ep. #3: Der Erfinder (Jan. 2021)]]

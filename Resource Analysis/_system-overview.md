@@ -1,6 +1,6 @@
 ---
 type: system-dokumentation
-letzte-aktualisierung: 2026-02-20
+letzte-aktualisierung: 2026-03-10
 ---
 
 # Knowledge-Management-System — Systemübersicht
@@ -36,18 +36,20 @@ Resource Analysis/
 │   └── [episode-ordner]/              # Pro Episode ein Ordner (von Claude erstellt)
 │       ├── transkript.md              # Original (von Claude aus _inbox/ verschoben)
 │       ├── transkript-strukturiert.md # Thematisch unterteilt (automatisch)
-│       ├── zusammenfassung.md         # Executive Summary (automatisch)
+│       ├── [episodentitel-slug].md     # Zusammenfassung mit Episodentitel als Dateiname
 │       ├── web-recherche.md           # Recherche zu Personen/Praxen (automatisch)
 │       └── max-notizen.md             # Max' eigene Gedanken (manuell befüllt)
 └── ...
 
-Concepts/
+Praxis-Konzepte/
 ├── _praxiskonzepte-index.md           # Übersicht aller Praxiskonzepte
-├── Personen/
+├── _praxiskonzepte.base               # Obsidian Base: dynamische Praxis-Übersicht
+├── Personen/                          # Personen-Verzeichnis
 │   ├── _personen-index.md             # Übersicht aller Personen
+│   ├── _personen.base                 # Obsidian Base: dynamische Personen-Übersicht
 │   └── [vorname-nachname].md          # Profil pro Person
-├── [Praxisname]/
-│   └── profil.md                      # Profil pro Praxis/Unternehmen
+├── [Praxisname]/                      # Pro dokumentierter Praxis ein Ordner
+│   └── profil.md                      # Profil: Geschäftsmodell, Skalierung, Learnings
 └── ...
 ```
 
@@ -61,6 +63,8 @@ Concepts/
 |:------|:---------------|:------|
 | `[podcast-slug]-ep-[NNN].md` | `/get-podcast-url` | Vorbereitete Episode mit Metadaten, Audio-URL, eingebettetem Screenshot und Transkript-Platzhalter. `type: inbox-episode` im Frontmatter. Wird von `/analyze-episode` erkannt und verarbeitet. |
 | `[podcast-slug]-ep-[NNN]-screenshot.png` | `/get-podcast-url` | Screenshot der Episode (Bild-Asset). Per `![[...]]` in die Inbox-Markdown-Datei eingebettet. Wird von `/analyze-episode` in den Episoden-Ordner verschoben. |
+| `[kanal-slug]-YYYY-MM-titel-slug.md` | `/get-youtube-url` | Vorbereitetes YouTube-Video mit Metadaten, YouTube-URL, eingebettetem Screenshot und Transkript-Platzhalter. `type: inbox-episode` im Frontmatter. Wird von `/analyze-episode` erkannt und verarbeitet. |
+| `[kanal-slug]-YYYY-MM-titel-slug-screenshot.png` | `/get-youtube-url` | Screenshot des YouTube-Videos (Bild-Asset). Per `![[...]]` in die Inbox-Markdown-Datei eingebettet. Wird von `/analyze-episode` in den Episoden-Ordner verschoben. |
 
 ### Episoden-Dateien (pro Episode)
 
@@ -68,7 +72,7 @@ Concepts/
 |:------|:---------------|:------|
 | `transkript.md` | Max (Upload) | Roh-Transkript, unverändert |
 | `transkript-strukturiert.md` | `/analyze-episode` | In thematische Abschnitte unterteilt, mit `## Überschriften` für Obsidian-Verlinkung |
-| `zusammenfassung.md` | `/analyze-episode` | Executive Summary + Key Takeaways |
+| `[episodentitel-slug].md` | `/analyze-episode` | Zusammenfassung mit Episodentitel als Dateiname (z.B. `3-trends-zahnaerzte-teil-1.md`). Hat `tiefe`-Feld: `gruendung-fokus` (sehr detailliert, Custom-Callouts) oder `management-fokus` (kompakt). Erkennbar am `type: episode-zusammenfassung` im Frontmatter. |
 | `web-recherche.md` | `/analyze-episode` | Recherche-Ergebnisse zu Personen und Praxen aus dem Internet |
 | `max-notizen.md` | `/analyze-episode` (Grundstruktur), Max (Inhalt) | Max' eigene Gedanken und Einschätzungen |
 
@@ -82,7 +86,7 @@ Concepts/
 | `_[kategorie]-moc.md` | Map of Content — entsteht nur nach Splitting, enthält Übersicht + Links zu Sub-Themen |
 | `[sub-thema].md` | Einzelnes Sub-Thema nach Splitting, enthält Erkenntnisse + Quellenangaben |
 
-### Concepts-Dateien
+### Praxiskonzept- und Personen-Dateien
 
 | Datei | Zweck |
 |:------|:------|
@@ -101,12 +105,12 @@ Bases sind dynamische Views, die sich automatisch aus Frontmatter-Properties akt
 |:------|:------|
 | `Resource Analysis/_episoden.base` | Alle Episoden sortiert/filterbar nach Quelle, Datum, Status |
 | `Resource Analysis/_knowledge-hub/_hub-dashboard.base` | Hub-Kategorien mit Episode-Count und Aktualität |
-| `Concepts/_praxiskonzepte.base` | Alle Praxiskonzepte als Karten-Ansicht |
-| `Concepts/Personen/_personen.base` | Alle Personen mit Episoden-Count und Expertise |
+| `Praxis-Konzepte/_praxiskonzepte.base` | Alle Praxiskonzepte als Karten-Ansicht |
+| `Praxis-Konzepte/Personen/_personen.base` | Alle Personen mit Episoden-Count und Expertise |
 
 ---
 
-## Die vier Skills
+## Die fünf Skills
 
 ### `/analyze-episode`
 
@@ -117,7 +121,7 @@ Workflow:
 0. **Setup** (Claude macht das): Transkript lesen → Metadaten extrahieren (Podcast, Episode, Datum, Titel) → fehlende Infos bei Max nachfragen → Episoden-Ordner erstellen → Transkript verschieben
 1. Transkript normalisieren und strukturieren
 2. Zeitliche Einordnung (relative → absolute Zeitangaben)
-3. Zusammenfassung erstellen
+3. Zusammenfassung erstellen (mit Tiefe-Klassifikation: `gruendung-fokus` = sehr detailliert mit Custom-Callouts, `management-fokus` = kompakt)
 4. Notiz-Datei erstellen (leer, für Max)
 5. Personen und Praxen identifizieren
 6. Web-Recherche zu Personen/Praxen
@@ -152,6 +156,16 @@ Erstellt eine vorbereitete Inbox-Datei aus einem Podcast-Screenshot. Max fügt e
 
 **Workflow-Integration**: Max kopiert die Audio-URL in MacWhisper, fügt das fertige Transkript in die Inbox-Datei ein, und ruft `/analyze-episode` auf. Da alle Metadaten bereits im Frontmatter stehen, überspringt `/analyze-episode` die Nachfragephase komplett.
 
+### `/get-youtube-url`
+
+Erstellt eine vorbereitete Inbox-Datei aus einem YouTube-Screenshot. Max fügt einen Screenshot des YouTube-Videos bei und Claude:
+1. Erkennt Kanal-Name, Video-Titel, Datum, Gast, Beschreibung, Kapitelmarken aus dem Screenshot
+2. Sucht die YouTube-Video-URL per WebSearch
+3. Speichert den Screenshot als Bild-Asset in `Resource Analysis/_inbox/`
+4. Erstellt eine Markdown-Datei in `Resource Analysis/_inbox/` mit `type: inbox-episode` Frontmatter, allen Metadaten, YouTube-URL, eingebettetem Screenshot (`![[...]]`) und `## Transkript` Platzhalter
+
+**Workflow-Integration**: Max kopiert die YouTube-URL in MacWhisper (oder nutzt YouTube-Untertitel), fügt das fertige Transkript in die Inbox-Datei ein, und ruft `/analyze-episode` auf. Da alle Metadaten bereits im Frontmatter stehen, überspringt `/analyze-episode` die Nachfragephase komplett. Das `podcast`-Feld wird mit dem YouTube-Kanal-Namen befüllt, da `/analyze-episode` dieses Feld für den Quellen-Ordner nutzt.
+
 ---
 
 ## Kernregeln
@@ -180,7 +194,8 @@ Jede Information im Hub MUSS eine nachverfolgbare Quelle haben:
 ### Obsidian-native Formatierung
 
 Das System nutzt native Obsidian-Features:
-- **Callouts**: `[!warning]` für Zeithinweise, `[!question]` für unklare Stellen, `[!example]-` für faltbare Transkript-Einbettungen
+- **Standard-Callouts**: `[!warning]` für Zeithinweise, `[!question]` für unklare Stellen, `[!example]-` für faltbare Transkript-Einbettungen
+- **Custom-Callouts** (CSS in `.obsidian/snippets/custom-callouts.css`): `[!memorize]` (rot — Schlüsselzahlen), `[!concept]` (lila — Konzepte/Modelle), `[!speech]` (grün — Zitate), `[!expert]` (gold — Experten-Einordnung), `[!prereq]` (grau — Voraussetzungen), `[!diagram]` (teal — Diagramme). Werden primär in `gruendung-fokus`-Zusammenfassungen eingesetzt.
 - **Nested Tags**: Hierarchische Tags wie `#finanzen/praxisbewertung` spiegeln die Hub-Kategorien wider
 - **Embeds**: `![[...]]` bettet Transkript-Abschnitte in den Hub ein (immer in faltbare Callouts verpackt)
 - **Bases**: `.base`-Dateien für dynamische, selbstaktualisierende Views (ersetzen NICHT die Markdown-Indizes)
@@ -240,10 +255,10 @@ Jede Datei im System hat YAML-Frontmatter mit einem `type`-Feld. Die möglichen 
 | `knowledge-hub-moc` | `_knowledge-hub/` | Map of Content nach Splitting |
 | `hub-index` | `_knowledge-hub/` | Zentraler Index |
 | `hub-changelog` | `_knowledge-hub/` | Änderungsprotokoll |
-| `praxiskonzept` | `Concepts/[Name]/` | Praxis-Profil |
-| `praxiskonzepte-index` | `Concepts/` | Übersicht aller Praxiskonzepte |
-| `person` | `Concepts/Personen/` | Personen-Profil |
-| `personen-index` | `Concepts/Personen/` | Übersicht aller Personen |
+| `praxiskonzept` | `Praxis-Konzepte/[Name]/` | Praxis-Profil |
+| `praxiskonzepte-index` | `Praxis-Konzepte/` | Übersicht aller Praxiskonzepte |
+| `person` | `Praxis-Konzepte/Personen/` | Personen-Profil |
+| `personen-index` | `Praxis-Konzepte/Personen/` | Übersicht aller Personen |
 | `system-dokumentation` | `Resource Analysis/` | Diese Datei |
 
 Zusätzlich: `.base`-Dateien (YAML, kein Frontmatter) für dynamische Obsidian-Views. Diese haben keinen `type`-Feld, da sie ein eigenes Format nutzen.

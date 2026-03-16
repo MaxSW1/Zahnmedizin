@@ -1,6 +1,6 @@
 ---
 type: hub-changelog
-letzte-aenderung: 2026-02-21
+letzte-aenderung: 2026-03-10
 ---
 
 # Hub-Changelog
@@ -12,6 +12,27 @@ Routine-Einträge (neue Erkenntnisse zu bestehenden Kategorien) werden hier NICH
 ---
 
 ## Changelog
+
+### 2026-03-10 — Fünfte Episode analysiert (Denta1 Clinic: Investoren Teil 2 — Helka & Neumann)
+
+2 bestehende Kategorien erweitert:
+- `praxisgruendung-und-finanzierung.md` — Investorenmarkt (keine Bedrohung), Praxisbewertung klassisch vs. Investor, EBITDA-Multiples (5–8×), 5 Haupteinflussfaktoren, Due-Diligence-Falle, Fehler der ersten Investorengeneration
+- `skalierung-und-organisation.md` — Investoren-Kettenmanagement, Zentralisierung vs. Hands-off, Generationenwechsel 2022/23
+
+Hub-Index aktualisiert: 10 Kategorien, 5 Episoden.
+Bestehende Profile ergänzt: Dr. Stefan Helka (Ep. 5), Svend Neumann (Ep. 5, Investorenabgabe-Sektion), Denta1 Clinic.
+
+### 2026-03-10 — Vierte Episode analysiert (Denta1 Clinic: 3 Trends Zahnärzte Teil 1 — Helka & Neumann)
+
+3 bestehende Kategorien erweitert:
+- `praxisgruendung-und-finanzierung.md` — Greenfield vs. Übernahme, Goodwill-Transfer-Modell, Praxisbewertung/Substanzwert, Dentalmarkt-Strukturwandel, Businessplan als Zielfindung
+- `personal-und-verguetung.md` — Generation Z, Work-Life-Balance, Schichtsystem-Einführung, Teilzeit-Tetris, Feminisierung
+- `skalierung-und-organisation.md` — Controlling/Auslastungsmanagement, Profit-Center, Outsourcing, Alleinstellungsmerkmale/USP
+
+Hub-Index aktualisiert: 10 Kategorien, 4 Episoden.
+Neue Quelle: Denta1 Clinic - Dr. Stefan Helka (YouTube-Kanal).
+2 neue Personen: Dr. Stefan Helka, Svend Neumann.
+Neues Praxiskonzept: Denta1 Clinic (Herne).
 
 ### 2026-02-21 — Dritte Episode analysiert (Praxisflüsterer Ep. 3: Der Erfinder — PD Dr. Oliver Ahlers)
 

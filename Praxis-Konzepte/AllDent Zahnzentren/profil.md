@@ -104,4 +104,4 @@ aliases: ["AllDent", "Alldent", "All Dent", "AllDent Zahnzentrum"]
 5. Standardisierung ermöglicht schnelle Expansion
 6. Nicht als Sprungbrett positioniert — durch gute Bedingungen werden Zahnärzte zu Langzeitangestellten
 
-> Quelle: [[Resource Analysis/Praxisfluesterer/ep-002-die-visionaere-alldent-gruender/zusammenfassung|Praxisflüsterer Ep. 2 (Dez. 2020)]]
+> Quelle: [[Resource Analysis/Praxisfluesterer/ep-002-die-visionaere-alldent-gruender/die-visionaere-alldent-gruender|Praxisflüsterer Ep. 2 (Dez. 2020)]]

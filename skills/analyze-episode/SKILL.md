@@ -83,7 +83,7 @@ Vollständiger Pfad: `Resource Analysis/[Podcast-Name]/[episode-ordner]/`
 
 **0e) Re-Analyse prüfen:**
 
-Falls der Ziel-Ordner bereits existiert und analysierte Dateien enthält (`transkript-strukturiert.md`, `zusammenfassung.md` etc.):
+Falls der Ziel-Ordner bereits existiert und analysierte Dateien enthält (`transkript-strukturiert.md`, Zusammenfassungs-Datei etc.):
 - Max fragen: "Diese Episode wurde bereits analysiert. Soll ich die bestehende Analyse überschreiben oder abbrechen?"
 - Bei Status `in-arbeit`: Anbieten, die Analyse fortzusetzen statt neu zu starten
 
@@ -122,7 +122,18 @@ Relative Zeitbezüge im strukturierten Transkript annotieren:
 
 ### Schritt 3 — Zusammenfassung erstellen
 
-`zusammenfassung.md` im Episoden-Ordner erstellen mit:
+**3a) Tiefe-Klassifikation bestimmen:**
+
+Vor dem Schreiben der Zusammenfassung MUSS Claude den Episode-Fokus klassifizieren:
+
+| Klassifikation | Kriterien | Frontmatter-Wert |
+|:---------------|:----------|:-----------------|
+| **Gründung-Fokus** | Episode behandelt Praxisgründung, Finanzierung, Rentabilität, Aufbau, Übernahme, Investitionsmodelle, Standortwahl, oder Praxisbewertung | `tiefe: gruendung-fokus` |
+| **Management-Fokus** | Episode behandelt laufenden Praxisbetrieb, Abrechnung, aktuelle Konzepte, wie Zahnärzte Geld verdienen, Team-Führung, Patientenkommunikation | `tiefe: management-fokus` |
+
+**3b) Zusammenfassung schreiben:**
+
+Zusammenfassungs-Datei im Episoden-Ordner erstellen. **Dateiname = Episodentitel-Slug** (NICHT `zusammenfassung.md`), z.B. `3-trends-zahnaerzte-teil-1.md`, `die-visionaere-alldent-gruender.md`. Slug-Regeln: kleingeschrieben, keine Umlaute, Bindestriche statt Leerzeichen, keine akademischen Titel. YAML-Frontmatter:
 
 ```yaml
 ---
@@ -131,6 +142,7 @@ status: komplett
 quelle: [Podcast/Kanal-Name]
 episode: [Nummer oder null]
 titel: "[Episodentitel]"
+url: "[YouTube-URL oder Podcast-URL, falls bekannt]"
 erschienen: [YYYY-MM]
 analysiert: [YYYY-MM-DD]
 personen: ["Person 1", "Person 2"]
@@ -139,13 +151,38 @@ kategorien: ["kategorie-1", "kategorie-2"]
 tags: [kategorie/sub-thema, ...]
 zeitlich-sensitiv: ["Thema 1"]
 aliases: ["Ep.42", "Kurzname"]
+tiefe: [gruendung-fokus|management-fokus]
 ---
 ```
 
-Inhalt:
-- `> [!abstract] Executive Summary` — 3-5 Sätze Kernaussage
-- `> [!tip] Key Takeaways` — Die wichtigsten Erkenntnisse als Liste
-- Thematische Zusammenfassung der Abschnitte
+**URL-Feld**: Wenn die Episode von `/get-youtube-url` oder `/get-podcast-url` kommt, steht die URL bereits im Inbox-Frontmatter → übernehmen. Bei manuell abgelegten Transkripten: Max nach der URL fragen (optional). In Obsidian wird das `url`-Feld als klickbarer Link in den Properties angezeigt.
+
+**Bei `gruendung-fokus` — SEHR detaillierte Zusammenfassung:**
+
+Diese Episoden sind Max' Kerninteresse. Jede relevante Zahl, jedes Modell, jedes Beispiel MUSS erfasst werden. Struktur:
+
+1. `> [!abstract] Executive Summary` — 4-6 Sätze mit den wichtigsten Zahlen (Rentabilität, Investitionsvolumen etc.)
+2. `> [!tip] Key Takeaways für Max` — 8-12 Bullet Points, jeder mit **fetter Kernzahl/Kernaussage**
+3. **Thematische Abschnitte** mit folgenden Custom-Callouts:
+   - `> [!memorize]` (rot) — **Schlüsselzahlen und Fakten** die man sich merken muss (z.B. "30% Rentabilität", "0,47% Insolvenzquote", Investment-Spannen, Faustregeln). JEDE wichtige Zahl bekommt ein eigenes Memorize-Callout.
+   - `> [!concept]` (lila) — **Wichtige Konzepte und Modelle** (z.B. "Goodwill-Transfer-Modell", "Profit-Center-Denken", "Teilzeit-Tetris"). Erklärt das Modell so, dass es ohne Transkript verständlich ist.
+   - `> [!expert]` (gold) — **Experten-Einschätzungen und Einordnungen für Max** (z.B. Implikationen für Max' Gründungsplanung, Vergleiche mit anderen Branchen)
+   - `> [!speech]` (grün) — **Direkte Zitate** die besonders aussagekräftig sind
+4. **Eigene Abschnitte** für: Rentabilität/Risiko, Investitionsmodelle, Controlling-Metriken, Praxisbewertung
+5. Jeder Abschnitt MUSS eine Quellenangabe mit Wikilink haben
+6. **Trennlinien (`---`)** zwischen den Hauptabschnitten für visuelle Klarheit
+
+Ziel: Max soll die Zusammenfassung lesen und SOFORT alle relevanten Zahlen, Modelle und Implikationen für seine Gründung finden — ohne das Transkript öffnen zu müssen.
+
+**Bei `management-fokus` — Kompakte Zusammenfassung:**
+
+1. `> [!abstract] Executive Summary` — 3-4 Sätze
+2. `> [!tip] Key Takeaways` — 5-8 Bullet Points
+3. Thematische Abschnitte — kurz und auf den Punkt
+4. Custom-Callouts NUR wo besonders relevante Zahlen oder Konzepte auftauchen
+5. Quellenangaben mit Wikilinks
+
+Inhalt allgemein:
 - Bei fremdsprachigem Transkript: Zusammenfassung auf Deutsch
 
 ### Schritt 4 — Notiz-Datei erstellen
@@ -166,9 +203,9 @@ roh-version: null
 ### Schritt 5 — Personen und Praxen identifizieren
 
 - Alle genannten Personen und Praxen auflisten
-- **Duplikat-Check**: VOR dem Erstellen neuer Profile immer `Concepts/Personen/_personen-index.md` und `Concepts/_praxiskonzepte-index.md` lesen + bestehende `aliases`-Felder prüfen
+- **Duplikat-Check**: VOR dem Erstellen neuer Profile immer `Praxis-Konzepte/Personen/_personen-index.md` und `Praxis-Konzepte/_praxiskonzepte-index.md` lesen + bestehende `aliases`-Felder prüfen
 - Existierendes Profil → ergänzen (Episoden-Array erweitern, neue Infos hinzufügen)
-- Neues Profil → erstellen unter `Concepts/Personen/vorname-nachname.md` bzw. `Concepts/[Praxisname]/profil.md`
+- Neues Profil → erstellen unter `Praxis-Konzepte/Personen/vorname-nachname.md` bzw. `Praxis-Konzepte/[Praxisname]/profil.md`
 - Indizes aktualisieren
 
 **Personen-Profil Frontmatter:**

@@ -8,11 +8,12 @@ Dieses Handbuch erklärt, wie Max das Wissensmanagement-System in diesem Repo nu
 
 Das System verwandelt Podcast-Transkripte und Video-Mitschriften in durchsuchbares, strukturiertes Wissen. Statt sich alles merken zu müssen, baut Max Stück für Stück eine persönliche Wissensdatenbank auf — sortiert nach Themen, mit Quellenangaben, und jederzeit per Frage abrufbar.
 
-**Das System hat vier Fähigkeiten (Skills):**
+**Das System hat fünf Fähigkeiten (Skills):**
 
 | Skill | Was er tut | Wann benutzen |
 |:------|:-----------|:--------------|
-| `/get-podcast-url` | Screenshot → Inbox-Datei mit Metadaten + Audio-URL | Vor dem Transkribieren einer neuen Episode |
+| `/get-podcast-url` | Podcast-Screenshot → Inbox-Datei mit Metadaten + Audio-URL | Vor dem Transkribieren einer Podcast-Episode |
+| `/get-youtube-url` | YouTube-Screenshot → Inbox-Datei mit Metadaten + YouTube-URL | Vor dem Transkribieren eines YouTube-Videos |
 | `/analyze-episode` | Transkript komplett verarbeiten | Nach dem Einfügen des Transkripts in die Inbox-Datei |
 | `/clean-notes` | Diktierte Notizen aufräumen | Nachdem Max eigene Gedanken eingesprochen hat |
 | `/ask-knowledge` | Fragen ans gesammelte Wissen stellen | Jederzeit, wenn Max etwas nachschlagen will |
@@ -21,7 +22,7 @@ Das System verwandelt Podcast-Transkripte und Video-Mitschriften in durchsuchbar
 
 ## Neue Episode verarbeiten
 
-### Schneller Weg: Screenshot → MacWhisper → Analyse (empfohlen)
+### Podcast-Episoden (Spotify, Apple Podcasts etc.)
 
 #### 1. Screenshot machen
 
@@ -64,6 +65,56 @@ Resource Analysis/_inbox/praxisfluesterer-ep-001.md
 
 ```
 /analyze-episode Resource Analysis/_inbox/praxisfluesterer-ep-001.md
+```
+
+Da alle Metadaten bereits in der Datei stehen, **fragt Claude nichts nach** und startet sofort mit der Analyse.
+
+---
+
+### YouTube-Videos
+
+#### 1. Screenshot machen
+
+Auf YouTube die Videoseite öffnen und einen Screenshot machen. Der Screenshot sollte möglichst zeigen:
+- Kanal-Name
+- Video-Titel
+- Erscheinungsdatum
+- Aufrufe
+- Beschreibung (so viel wie sichtbar)
+- Kapitelmarken (falls vorhanden)
+
+#### 2. Inbox-Datei erstellen lassen
+
+In Claude Code den Screenshot beifügen und eingeben:
+
+```
+/get-youtube-url
+```
+
+Claude erstellt automatisch:
+- Eine Markdown-Datei in `Resource Analysis/_inbox/` mit allen Metadaten
+- Den **Screenshot** als Bild eingebettet (direkt in der Datei sichtbar in Obsidian)
+- Die **YouTube-URL** wird gesucht und in die Datei eingefügt
+
+Am Ende zeigt Claude die YouTube-URL an — diese kopieren.
+
+#### 3. In MacWhisper transkribieren
+
+MacWhisper öffnen → YouTube-URL in das URL-Feld einfügen → Transkribieren lassen.
+
+#### 4. Transkript einfügen
+
+Das fertige Transkript aus MacWhisper kopieren und in die Inbox-Datei einfügen — unter der Überschrift `## Transkript` (dort steht ein Platzhalter).
+
+Die Inbox-Datei liegt z.B. unter:
+```
+Resource Analysis/_inbox/denta1-clinic-2022-01-3-trends-zahnaerzte.md
+```
+
+#### 5. Analyse starten
+
+```
+/analyze-episode Resource Analysis/_inbox/denta1-clinic-2022-01-3-trends-zahnaerzte.md
 ```
 
 Da alle Metadaten bereits in der Datei stehen, **fragt Claude nichts nach** und startet sofort mit der Analyse.
@@ -141,8 +192,8 @@ Das Repo ist gleichzeitig ein Obsidian-Vault. Max kann den Ordner `farmerville/`
 | **Gesammeltes Wissen** | `Resource Analysis/_knowledge-hub/` | Nach Themen sortierte Erkenntnisse |
 | **Themen-Übersicht** | `_knowledge-hub/_hub-index.md` | Einstiegspunkt: alle Wissenskategorien |
 | **Alle Episoden** | `_episoden.base` | Dynamische Tabelle aller verarbeiteten Episoden |
-| **Praxiskonzepte** | `Concepts/` | Profile aller dokumentierten Praxen |
-| **Personen** | `Concepts/Personen/` | Profile aller Experten und Interview-Gäste |
+| **Praxiskonzepte** | `Praxis-Konzepte/` | Profile aller dokumentierten Praxen |
+| **Personen** | `Praxis-Konzepte/Personen/` | Profile aller Experten und Interview-Gäste |
 
 ### Navigation in Obsidian
 
@@ -155,10 +206,11 @@ Das Repo ist gleichzeitig ein Obsidian-Vault. Max kann den Ordner `farmerville/`
 
 ## Tipps
 
-### Beim Screenshot für `/get-podcast-url`
+### Beim Screenshot für `/get-podcast-url` oder `/get-youtube-url`
 
 - **Möglichst viel sichtbar** — Je mehr Infos im Screenshot (Titel, Datum, Beschreibung), desto weniger muss Claude recherchieren.
-- **Spotify-Episodenseite ideal** — Dort sind Titel, Datum, Dauer und Beschreibung direkt sichtbar.
+- **Spotify-Episodenseite ideal für Podcasts** — Dort sind Titel, Datum, Dauer und Beschreibung direkt sichtbar.
+- **YouTube-Videoseite ideal für Videos** — Titel, Kanal, Datum, Beschreibung und Kapitelmarken direkt sichtbar.
 - **Funktioniert auch mit Apple Podcasts, Pocket Casts, Podcast-Websites** — Alles was die Episode-Infos zeigt.
 
 ### Beim Transkript
@@ -196,10 +248,22 @@ Max muss sich um die Struktur nicht kümmern — Claude verwaltet den Hub automa
 
 ## Zusammenfassung: Der komplette Workflow
 
+**Podcast-Episode:**
 ```
 1. Screenshot der Episode machen (Spotify etc.)
 2. /get-podcast-url  (mit Screenshot)
 3. Audio-URL aus der Inbox-Datei in MacWhisper kopieren
+4. Transkript in die Inbox-Datei einfügen (unter ## Transkript)
+5. /analyze-episode Resource Analysis/_inbox/dateiname.md
+6. Optional: Eigene Gedanken in max-notizen.md → /clean-notes
+7. Jederzeit: /ask-knowledge Deine Frage?
+```
+
+**YouTube-Video:**
+```
+1. Screenshot des Videos machen (YouTube-Videoseite)
+2. /get-youtube-url  (mit Screenshot)
+3. YouTube-URL aus der Inbox-Datei in MacWhisper kopieren
 4. Transkript in die Inbox-Datei einfügen (unter ## Transkript)
 5. /analyze-episode Resource Analysis/_inbox/dateiname.md
 6. Optional: Eigene Gedanken in max-notizen.md → /clean-notes
