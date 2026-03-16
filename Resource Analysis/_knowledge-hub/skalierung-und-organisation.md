@@ -1,9 +1,9 @@
 ---
 type: hub-kategorie
 titel: "Skalierung und Organisation"
-themen: ["Multi-Standort-Expansion", "Zentralisierung vs. Dezentralisierung", "Standardisierung", "Klinikmanagement", "Autarke Standorte"]
-episoden-count: 1
-letzte-aktualisierung: 2026-02-20
+themen: ["Multi-Standort-Expansion", "Zentralisierung vs. Dezentralisierung", "Standardisierung", "Klinikmanagement", "Autarke Standorte", "Controlling", "Profit-Center", "Auslastungsmanagement", "Outsourcing"]
+episoden-count: 3
+letzte-aktualisierung: 2026-03-10
 ---
 
 # Skalierung und Organisation
@@ -94,3 +94,68 @@ Das Kernprinzip bei AllDent: Alles, was kurze Kommunikationswege braucht, bleibt
 - 24h-Notdienst als USP und Patientenmagnet
 
 > Quelle: [[Resource Analysis/Praxisfluesterer/ep-002-die-visionaere-alldent-gruender/transkript-strukturiert#Das AllDent-Konzept: Qualität zum fairen Preis|Praxisflüsterer Ep. 2 (Dez. 2020)]]
+
+## Controlling und Auslastungsmanagement
+
+### Kernmetriken für Praxiscontrolling [Stand: Jan. 2022]
+
+Helka und Neumann betonen: Ohne Messbarkeit keine Praxisentwicklung. "Du kannst nur kontrollieren, was du misst."
+
+**Zu messende Kennzahlen:**
+- **Auslastungsquote** pro Zimmer — Behandlungszimmer und Prophylaxezimmer getrennt messen
+- **Stundenumsatz** pro Behandler — differenziert nach Inhaber, Angestelltem, Prophylaxe
+- **Zahnarztstunden vs. verfügbare Behandlungsstunden** — Gap aufdecken (häufig 250h Kapazität, aber nur 100h Zahnarzt verfügbar)
+- **Profit-Center-Rechnung** — Kostenanteile pro Behandler zuweisen (Zimmer, Mitarbeiter)
+
+**Faustregeln Zimmer-zu-Zahnarzt:**
+- Ohne Schichtsystem: **1,5 Zimmer pro Zahnarzt**
+- Mit Zwei-Schicht-System: **1 Zimmer pro Zahnarzt** (morgens einer, abends einer)
+- Differenzierung möglich: Inhaber 2,5 Zimmer, Angestellter 2, Ausbildungsassistent 1
+
+**Kosten leerstehender Zimmer:**
+- Behandlungszimmer: **250-300 EUR/h** Opportunitätskosten
+- OP / Ästhetik-Lounge: **500-800 EUR/h** Opportunitätskosten
+
+**Häufigster Fehler bei Margenproblemen:**
+- Reflex: Personal- und Materialkosten sparen (letzten 2%) → falscher Hebel
+- Richtiger Hebel: Auslastung steigern, Prozesse verbessern
+
+> Quelle: [[Resource Analysis/Denta1 Clinic - Dr. Stefan Helka/2022-01-3-trends-zahnaerzte-teil-1/transkript-strukturiert#Controlling und Messbarkeit|Denta1 Clinic: 3 Trends Teil 1 (Jan. 2022)]]
+
+### Outsourcing-Trend
+
+Immer mehr Praxen lagern nicht-medizinische Aufgaben aus: QMS, Hygiene (zentrale Aufbereitung), Buchhaltung. Wichtig: Ergebnisse kontrollieren können — dafür braucht es Controlling-Kompetenz.
+
+> Quelle: [[Resource Analysis/Denta1 Clinic - Dr. Stefan Helka/2022-01-3-trends-zahnaerzte-teil-1/transkript-strukturiert#Controlling und Messbarkeit|Denta1 Clinic: 3 Trends Teil 1 (Jan. 2022)]]
+
+## Investoren-Kettenmanagement: Zentralisierung vs. Hands-off
+
+### Generationenwechsel als Stresstest für Investoren [Stand: Feb. 2022]
+
+Die Halterhorizonte der 2017/18er Transaktionen laufen 2022/23 aus — der alte Inhaber geht, und die Investorengruppe muss den Standort eigenständig weiterführen. 5–6 große Gruppen am Markt mit je 70–90 Praxen stehen vor dieser Herausforderung.
+
+**Zwei Ansätze:**
+1. **Hands-off**: Nur BWA einsammeln, Praxis komplett eigenständig lassen. Problem: Wenn der Inhaber geht, muss plötzlich alles von 0 auf 100 aufgebaut werden — QM, Recruiting, Marketing, Buchhaltung.
+2. **Sukzessive Zentralisierung**: QM digital, Hygienekreisläufe, Recruiting, Marketing, Buchhaltung, Steuern, interne Fortbildungsakademien schrittweise zentralisieren.
+
+**Prognose (Neumann):** Gruppen mit frühzeitiger Zentralisierung werden den Generationenwechsel besser bestehen.
+
+**Klumpenrisiko-Management**: Wie beim Immobilieninvestment — eine Einzelpraxis sollte maximal 5–8% des Gesamtportfolios ausmachen. Je größer das Investorenkonstrukt, desto kleiner das Klumpenrisiko pro Standort.
+
+> Quelle: [[Resource Analysis/Denta1 Clinic - Dr. Stefan Helka/2022-02-zahnarztpraxen-bedroht-investoren-teil-2/transkript-strukturiert#Investorenmodelle: Zentralisierung vs. Hands-off|Denta1 Clinic: Investoren Teil 2 (Feb. 2022)]]
+
+## Alleinstellungsmerkmale und Positionierung
+
+### USP-Entwicklung und Pflege
+
+7 von 10 Praxisinhabern können keine 3-4 echten Alleinstellungsmerkmale ihrer Praxis benennen. Typische (wertlose) Antworten: "Gute Qualität", "Gesamtes Spektrum der Zahnheilkunde", "Serviceorientierung" — das sind Hygienefaktoren, keine Differenzierungsmerkmale.
+
+**Helkas Commodity-Analogie**: USPs werden über die Zeit zu Commodities (wie elektrische Fensterheber bei Autos — in den 80ern USP, heute Pflicht). Alleinstellungsmerkmale müssen sich mit der Praxis weiterentwickeln und regelmäßig hinterfragt werden.
+
+**Zwei Positionierungsstrategien:**
+1. **Klein bleiben → Spezialisierung** (Endodontologie, Implantologie, KFO, Kinderzahnheilkunde etc.)
+2. **Groß werden → Spezialisten unter einem Dach** (z.B. 10 ZA: 4 Generalisten + 6 Spezialisten für KFO, Chirurgie, Kinder-ZHK etc.)
+
+**Patientenverhalten**: Patienten können Behandlungsqualität kaum beurteilen (Ausnahme: Smile Makeovers). Sie entscheiden nach Soft-Faktoren: Online-Bewertungen, Ausstattung, Ambiente, Kommunikation. Risiko: Gute Behandler verlieren gegen bessere Kommunikatoren.
+
+> Quelle: [[Resource Analysis/Denta1 Clinic - Dr. Stefan Helka/2022-01-3-trends-zahnaerzte-teil-1/transkript-strukturiert#Alleinstellungsmerkmale und Positionierung|Denta1 Clinic: 3 Trends Teil 1 (Jan. 2022)]]

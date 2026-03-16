@@ -37,6 +37,6 @@ Henrici erwähnt ca. 3.000 Mandate in Zahnarztpraxen.
 
 ## Episoden-Auftritte (als Host)
 
-- [[Resource Analysis/Praxisfluesterer/ep-001-der-praesident-frankenberger/zusammenfassung|Praxisflüsterer Ep. #1: Der Präsident (Dez. 2020)]]
-- [[Resource Analysis/Praxisfluesterer/ep-002-die-visionaere-alldent-gruender/zusammenfassung|Praxisflüsterer Ep. #2: Die Visionäre — AllDent (Dez. 2020)]]
-- [[Resource Analysis/Praxisfluesterer/ep-003-der-erfinder-oliver-ahlers/zusammenfassung|Praxisflüsterer Ep. #3: Der Erfinder — Oliver Ahlers (Jan. 2021)]]
+- [[Resource Analysis/Praxisfluesterer/ep-001-der-praesident-frankenberger/der-praesident-frankenberger|Praxisflüsterer Ep. #1: Der Präsident (Dez. 2020)]]
+- [[Resource Analysis/Praxisfluesterer/ep-002-die-visionaere-alldent-gruender/die-visionaere-alldent-gruender|Praxisflüsterer Ep. #2: Die Visionäre — AllDent (Dez. 2020)]]
+- [[Resource Analysis/Praxisfluesterer/ep-003-der-erfinder-oliver-ahlers/der-erfinder-oliver-ahlers|Praxisflüsterer Ep. #3: Der Erfinder — Oliver Ahlers (Jan. 2021)]]

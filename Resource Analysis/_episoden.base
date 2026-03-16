@@ -7,6 +7,10 @@ formulas:
 properties:
   quelle:
     displayName: Quelle
+  titel:
+    displayName: Titel
+  episode:
+    displayName: Ep.
   formula.alter_text:
     displayName: Alter
 views:
@@ -18,20 +22,20 @@ views:
     order:
       - file.name
       - quelle
+      - titel
+      - episode
       - erschienen
       - status
       - kategorien
       - personen
     columnSize:
-      file.name: 117
-      note.quelle: 91
-      note.erschienen: 124
-      note.status: 106
-      note.kategorien: 115
+      note.quelle: 189
+      note.episode: 103
   - type: table
     name: Zuletzt analysiert
     order:
       - file.name
+      - titel
       - quelle
       - erschienen
       - analysiert
