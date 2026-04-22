@@ -15,7 +15,7 @@ Das System verwandelt Podcast-Transkripte und Video-Mitschriften in durchsuchbar
 | `/get-podcast-url` | Podcast-Screenshot → Inbox-Datei mit Metadaten + Audio-URL | Vor dem Transkribieren einer Podcast-Episode |
 | `/get-youtube-url` | YouTube-Screenshot → Inbox-Datei mit Metadaten + YouTube-URL | Vor dem Transkribieren eines YouTube-Videos |
 | `/analyze-episode` | Transkript komplett verarbeiten | Nach dem Einfügen des Transkripts in die Inbox-Datei |
-| `/clean-notes` | Diktierte Notizen aufräumen | Nachdem Max eigene Gedanken eingesprochen hat |
+| `/add-notes` | Notizen diktieren → bereinigt zur Episode hinzufügen | Beim Hören einer Episode, wenn etwas Wichtiges auffällt |
 | `/ask-knowledge` | Fragen ans gesammelte Wissen stellen | Jederzeit, wenn Max etwas nachschlagen will |
 
 ---
@@ -147,17 +147,27 @@ Falls das Transkript schon vorhanden ist (z.B. von YouTube-Untertiteln):
 
 ---
 
-### Eigene Gedanken ergänzen (optional, aber empfohlen)
+### Eigene Gedanken ergänzen: `/add-notes`
 
-Im Episoden-Ordner liegt jetzt eine `max-notizen.md`. Dort eigene Gedanken, Ideen und Einschätzungen festhalten — per Diktat oder Tippen.
-
-Danach die Notizen bereinigen lassen:
+Beim Hören einer Episode einfach Gedanken in Conductor reindiktieren:
 
 ```
-/clean-notes Resource Analysis/Praxisfluesterer/ep-042-praxisbewertung/max-notizen.md
+/add-notes Ep 1: Frankenberger hat mit 32 habilitiert, das ist extrem jung
+und zeigt wie wichtig Mentoren sind für eine schnelle Karriere...
 ```
 
-Claude räumt die Notizen auf (Füllwörter raus, Struktur rein) und trägt relevante Erkenntnisse in den Hub ein. Die Roh-Version wird als Backup gespeichert.
+**Was Claude dann tut:**
+1. Erkennt die richtige Episode (anhand Nummer, Titel, Person oder Thema)
+2. Bereinigt das Diktat (Füllwörter raus, Sätze vervollständigen)
+3. Hängt die Notiz mit passender Überschrift an die `max-notizen.md` an
+4. Die Notiz erscheint direkt im Embed am Ende der Episoden-Zusammenfassung
+5. Falls Hub-relevante Erkenntnisse dabei sind, werden sie automatisch eingetragen
+
+**Tipps:**
+- Einfach drauflos diktieren — Claude räumt auf
+- Eigene Meinung festhalten: "Ich glaube, das passt nicht zu unserem Konzept, weil..." ist genau die Art von Gedanken, die wertvoll sind
+- Notizen zeitnah machen — direkt nach dem Hören, solange die Gedanken frisch sind
+- Falls unklar welche Episode: einfach das Thema beschreiben, Claude findet die richtige
 
 ---
 
@@ -219,11 +229,11 @@ Das Repo ist gleichzeitig ein Obsidian-Vault. Max kann den Ordner `farmerville/`
 - **Audio-URL direkt aus der Inbox-Datei kopieren** — Steht unter "Audio-URL für MacWhisper".
 - **Transkript unter `## Transkript` einfügen** — Den Platzhalter-Text ersetzen.
 
-### Bei eigenen Notizen
+### Bei eigenen Notizen (`/add-notes`)
 
-- **Einfach drauflos diktieren** — `/clean-notes` räumt auf. Keine Angst vor Füllwörtern.
+- **Einfach in Conductor reindiktieren** — `/add-notes Ep 1: deine Gedanken...` und Claude erledigt den Rest.
 - **Eigene Meinung festhalten** — "Ich glaube, das passt nicht zu unserem Konzept, weil..." ist genau die Art von Gedanken, die wertvoll sind.
-- **Notizen zeitnah machen** — Direkt nach dem Hören, solange die Gedanken frisch sind.
+- **Notizen zeitnah machen** — Direkt beim Hören, solange die Gedanken frisch sind.
 
 ### Bei der Wissensabfrage
 
@@ -255,7 +265,7 @@ Max muss sich um die Struktur nicht kümmern — Claude verwaltet den Hub automa
 3. Audio-URL aus der Inbox-Datei in MacWhisper kopieren
 4. Transkript in die Inbox-Datei einfügen (unter ## Transkript)
 5. /analyze-episode Resource Analysis/_inbox/dateiname.md
-6. Optional: Eigene Gedanken in max-notizen.md → /clean-notes
+6. Optional: /add-notes Ep X: Deine Gedanken beim Hören...
 7. Jederzeit: /ask-knowledge Deine Frage?
 ```
 
@@ -266,6 +276,6 @@ Max muss sich um die Struktur nicht kümmern — Claude verwaltet den Hub automa
 3. YouTube-URL aus der Inbox-Datei in MacWhisper kopieren
 4. Transkript in die Inbox-Datei einfügen (unter ## Transkript)
 5. /analyze-episode Resource Analysis/_inbox/dateiname.md
-6. Optional: Eigene Gedanken in max-notizen.md → /clean-notes
+6. Optional: /add-notes Ep X: Deine Gedanken beim Hören...
 7. Jederzeit: /ask-knowledge Deine Frage?
 ```

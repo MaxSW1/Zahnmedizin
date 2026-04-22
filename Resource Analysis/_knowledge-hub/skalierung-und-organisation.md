@@ -1,9 +1,9 @@
 ---
 type: hub-kategorie
 titel: "Skalierung und Organisation"
-themen: ["Multi-Standort-Expansion", "Zentralisierung vs. Dezentralisierung", "Standardisierung", "Klinikmanagement", "Autarke Standorte", "Controlling", "Profit-Center", "Auslastungsmanagement", "Outsourcing"]
-episoden-count: 3
-letzte-aktualisierung: 2026-03-10
+themen: ["Multi-Standort-Expansion", "Zentralisierung vs. Dezentralisierung", "Standardisierung", "Klinikmanagement", "Autarke Standorte", "Controlling", "Profit-Center", "Auslastungsmanagement", "Outsourcing", "Mega-Einzelpraxis", "Satellitenpraxis", "7-Tage-Betrieb"]
+episoden-count: 4
+letzte-aktualisierung: 2026-04-16
 ---
 
 # Skalierung und Organisation
@@ -143,6 +143,77 @@ Die Halterhorizonte der 2017/18er Transaktionen laufen 2022/23 aus — der alte 
 **Klumpenrisiko-Management**: Wie beim Immobilieninvestment — eine Einzelpraxis sollte maximal 5–8% des Gesamtportfolios ausmachen. Je größer das Investorenkonstrukt, desto kleiner das Klumpenrisiko pro Standort.
 
 > Quelle: [[Resource Analysis/Denta1 Clinic - Dr. Stefan Helka/2022-02-zahnarztpraxen-bedroht-investoren-teil-2/transkript-strukturiert#Investorenmodelle: Zentralisierung vs. Hands-off|Denta1 Clinic: Investoren Teil 2 (Feb. 2022)]]
+
+## Mega-Einzelpraxis als alternatives Skalierungsmodell
+
+### KU64 — Skalierung an einem Standort statt Multi-Standort [Stand: Jan. 2021]
+
+Alternativ zum MVZ-Multi-Standort-Modell (AllDent) hat Dr. Stephan Ziegler mit **KU64 am Kurfürstendamm** den entgegengesetzten Skalierungspfad gegangen: **Eine einzige Praxis auf 3.000 m² mit 180 Mitarbeitern** — die laut eigener Aussage **größte Zahnarztpraxis an einem Standort in Deutschland**.
+
+**Kennzahlen KU64 (Januar 2021):**
+- 3.000 m² über 3 Etagen (4./5./6. OG am Kurfürstendamm 64)
+- 180 Mitarbeiter am Hauptstandort, 20 in Potsdam = 200 gesamt
+- ca. 30 Behandlungszimmer
+- > 7.000 Neupatienten/Jahr, ~12.000 Patienten/Monat (geschätzt)
+- 7 Tage die Woche geöffnet
+
+**Wachstumspfad (aus dem Bestand, nicht per Neugründung):**
+- 1990er: Start Wilmersdorf mit 2 Stühlen im Altbau
+- + Nachbarwohnung → ~300 m²
+- 2005: Umzug Kudamm → 1.000 m²
+- ca. 2010: 5. OG-Erweiterung → 2.000 m²
+- 2019: 4. OG-Erweiterung → 3.000 m²
+
+**Schlüssel zum Wachstums-aus-dem-Bestand:** Vormietrecht für angrenzende Flächen (siehe [[Resource Analysis/_knowledge-hub/praxisgruendung-und-finanzierung#Mietvertrag-Strategie bei Scale-up]]).
+
+> Quelle: [[Resource Analysis/Praxisfluesterer/ep-004-der-groesste-ku64-stephan-ziegler/transkript-strukturiert#Skalierungspfad Vom 50m² Zimmer zur 3 000m² Mega Praxis|Praxisflüsterer Ep. 4 (Jan. 2021)]]
+
+### Satellitenpraxis-Konzept (KU64 Potsdam)
+
+Nach Erreichen der Mega-Größe entschied sich Ziegler bewusst **gegen** einen weiteren Mega-Standort. Stattdessen: **Satellitenpraxis Potsdam** (300 m², 20 MA, November 2019) als Klein-Groß-Hybrid.
+
+**Konzept:**
+- 1/10 der Kudamm-Fläche
+- Familiäre Atmosphäre (kleine Rezeption, kennt Patienten mit Namen)
+- Kurze Wege (1 Etage statt 3)
+- Trotzdem **alle Spezialisten verfügbar** — aber nicht jeden Tag, bedarfsorientiert
+- 7-Tage-Öffnung wie am Kudamm
+- **Immobilie gekauft** statt gemietet
+- Synergien mit anderen Ärzten im Haus (DVT teilen mit HNO, Orthopäden)
+
+> [!expert] Abgleich mit AllDent-Modell
+> AllDent (Ep.2) skaliert horizontal (viele standardisierte MVZ-Standorte). KU64 skaliert vertikal (ein Mega-Standort + satellitenartige Ergänzungen). Beide Modelle funktionieren — entscheidend ist die Passung zu Gründer-Persönlichkeit, Standortdichte und Zielpatientenstruktur. KU64-Modell setzt auf Marke + Erlebnis, AllDent-Modell auf Preis + Skalen-Effizienz.
+
+> Quelle: [[Resource Analysis/Praxisfluesterer/ep-004-der-groesste-ku64-stephan-ziegler/transkript-strukturiert#Satellitenpraxis Konzept Potsdam ab 11 2019|Praxisflüsterer Ep. 4 (Jan. 2021)]]
+
+### Support-Funktionen ab Mega-Größe
+
+Bei ~180 MA am Standort werden folgende Rollen eigenständig notwendig (nicht Inhaber-Nebenaufgabe):
+- **2 Hausmeister** (alternde Bausubstanz, Farbreparaturen)
+- **Putzfirma**
+- **Ganztägiger IT** (80+ Arbeitsplätze, Cybersecurity)
+- **Kaufmännischer Leiter** (Controlling, Automatisierung)
+- **SEO-Experte**
+- **Marketingmanager** (100 k€ Jahresbudget)
+
+> Quelle: [[Resource Analysis/Praxisfluesterer/ep-004-der-groesste-ku64-stephan-ziegler/transkript-strukturiert#Größe Mitarbeiter Support Funktionen|Praxisflüsterer Ep. 4 (Jan. 2021)]]
+
+## All-in-One vs. Spezialisierung
+
+### KU64: „Spezialisten unter einem Dach" statt eigener Schwerpunkt [Stand: Jan. 2021]
+
+Ziegler hat sich bewusst **gegen** eine eigene Praxisspezialisierung entschieden — KU64 ist „die Praxis, die alle Spezialisten unter einem Dach vereint". Konkrete Besetzung: CMD, Parodontologie (M.Sc.), MKG-Chirurgie (inkl. HNO + Dermatologie), KFO (3+1), Kinderzahnheilkunde (7–8 Zahnärzte), Zahnheilkunde + Heilpraktik.
+
+**Operative Besonderheit**: Allgemein-Zahnärzte arbeiten 1 Arzt pro Raum + teilen Räume zu dritt (nie 1 Arzt auf 3 Räume). KFOs machen es umgekehrt — parallele Arbeit in mehreren Zimmern ist fachtypisch. Ziegler: „Wirtschaftlich tausendmal besser" als Zimmer-Hopping.
+
+> [!expert] Vergleich der drei Positionierungsstrategien
+> 1. **Klein + Spezialisiert** → [[Resource Analysis/Praxisfluesterer/ep-003-der-erfinder-oliver-ahlers/ep-003-der-erfinder-oliver-ahlers|Ahlers' CMD-Zentrum]] (Tiefen-Spezialist, Überweisungspraxis aus 2.200 anderen Praxen)
+> 2. **Groß + All-in-One** → KU64 (Breiten-Spezialisten, Self-Service)
+> 3. **Groß + Preis-Leader** → [[Resource Analysis/Praxisfluesterer/ep-002-die-visionaere-alldent-gruender/ep-002-die-visionaere-alldent-gruender|AllDent]] (Volumen-Skalierung, Qualität zum fairen Preis)
+
+Dies deckt sich mit Helkas Analyse (Helka 2022): „Klein → Spezialisierung, Groß → Spezialisten unter einem Dach".
+
+> Quelle: [[Resource Analysis/Praxisfluesterer/ep-004-der-groesste-ku64-stephan-ziegler/transkript-strukturiert#Das Spezialisten Konzept von KU64|Praxisflüsterer Ep. 4 (Jan. 2021)]]
 
 ## Alleinstellungsmerkmale und Positionierung
 

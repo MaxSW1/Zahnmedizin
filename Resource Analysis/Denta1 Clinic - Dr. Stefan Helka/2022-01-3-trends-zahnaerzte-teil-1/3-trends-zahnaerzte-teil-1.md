@@ -237,3 +237,9 @@ Work-Life-Balance ist branchenübergreifend das Thema. In der Zahnmedizin verst�
 > **KZBV-Jahrbuch** und **Jahrbuch der Bundeszahnärztekammer** — kostenlos als PDF verfügbar. Ab **Seite 120** stehen betriebswirtschaftliche Benchmarks: Praxisanzahl, Zahnärztezahl, Durchschnittsgrößen, regionale Daten, Rentabilitäts-Benchmarks. Erlaubt Vergleich der eigenen Kennzahlen mit dem Branchendurchschnitt.
 
 > Quelle: [[Resource Analysis/Denta1 Clinic - Dr. Stefan Helka/2022-01-3-trends-zahnaerzte-teil-1/transkript-strukturiert#Controlling und Messbarkeit|Denta1 Clinic: 3 Trends Teil 1 (Jan. 2022)]]
+
+---
+
+## Meine Notizen
+
+![[Resource Analysis/Denta1 Clinic - Dr. Stefan Helka/2022-01-3-trends-zahnaerzte-teil-1/max-notizen]]

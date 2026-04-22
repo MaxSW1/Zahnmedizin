@@ -294,3 +294,9 @@ Ruben und Matthias Stelzner stammen aus einer Zahnarztfamilie über drei Generat
 > AllDent ist das Referenzmodell für einen Zahnarzt-Klinikverbund in Deutschland — von zwei Brüdern mit komplementären Skills gegründet, bootstrapped (keine externen Investoren), mit klarem Fokus auf Qualität statt Discount. Für Max' 5-Jahres-Plan sind die wichtigsten Lektionen: (1) Banken werden innovativ nur finanzieren, wenn sie strategisches Eigeninteresse haben — frühzeitig die richtige Bank identifizieren. (2) Die Mindestgröße zum Start (8 Zahnärzte, 30+ Mitarbeiter, ~2 Mio. Investment) ist substanziell — dafür muss die Finanzierung stehen. (3) Standardisierung von Tag 1 planen, auch wenn der erste Standort noch klein ist. (4) Die Immobilienstrategie (Vermieter baut aus) kann die Einstiegshürde drastisch senken.
 
 > Quelle: [[Resource Analysis/Praxisfluesterer/ep-002-die-visionaere-alldent-gruender/transkript-strukturiert#Ratschläge für junge Zahnärzte|Praxisflüsterer Ep. 2 (Dez. 2020)]], [[Resource Analysis/Praxisfluesterer/ep-002-die-visionaere-alldent-gruender/transkript-strukturiert#Erster Standort München und Patientenakquise|Praxisflüsterer Ep. 2 (Dez. 2020)]]
+
+---
+
+## Meine Notizen
+
+![[Resource Analysis/Praxisfluesterer/ep-002-die-visionaere-alldent-gruender/max-notizen]]

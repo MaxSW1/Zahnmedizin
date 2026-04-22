@@ -129,13 +129,13 @@ Workflow:
 8. Hub-Struktur prüfen (Splitting/Merging nötig?)
 9. Abschluss-Bericht an Max
 
-### `/clean-notes`
+### `/add-notes`
 
-Bereinigt Max' diktierte oder getippte Notizen:
-- Füllwörter entfernen, Sätze vervollständigen
-- In logische Abschnitte strukturieren
-- Roh-Version als Backup speichern (IMMER)
-- Erkenntnisse in den Knowledge-Hub eintragen
+Max diktiert Notizen zu einer Episode direkt in Conductor. Der Skill:
+- Erkennt die richtige Episode (anhand Nummer, Titel, Person oder Thema)
+- Bereinigt das Diktat (Füllwörter raus, Sätze vervollständigen, Kern bewahren)
+- Hängt die Notiz mit passender Überschrift an die `max-notizen.md` der Episode an
+- Aktualisiert den Knowledge-Hub, falls Hub-relevante Erkenntnisse enthalten sind
 
 ### `/ask-knowledge`
 

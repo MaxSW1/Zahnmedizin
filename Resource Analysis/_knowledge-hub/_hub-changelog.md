@@ -1,6 +1,6 @@
 ---
 type: hub-changelog
-letzte-aenderung: 2026-03-10
+letzte-aenderung: 2026-04-16
 ---
 
 # Hub-Changelog
@@ -12,6 +12,18 @@ Routine-Einträge (neue Erkenntnisse zu bestehenden Kategorien) werden hier NICH
 ---
 
 ## Changelog
+
+### 2026-04-16 — Sechste Episode analysiert (Praxisflüsterer Ep. 4: Der Größte — KU64 / Stephan Ziegler)
+
+3 bestehende Kategorien erweitert:
+- `praxisgruendung-und-finanzierung.md` — Mietvertrag-Strategie bei Scale-up (35-Jahre-Optionen, Vormietrecht, Wilmersdorf-Lektion), Kaufen vs. Mieten, EG-Flächen-Trend, Neupatienten-KPI, Lifestyle-Praxis-Marketing, Coach-Imperativ
+- `skalierung-und-organisation.md` — Mega-Einzelpraxis als alternatives Skalierungsmodell (KU64 vs. AllDent-MVZ), Satellitenpraxis-Konzept, Support-Funktionen ab Mega-Größe, All-in-One vs. Spezialisierung (3 Positionierungsstrategien)
+- `personal-und-verguetung.md` — KU64 7-Tage-Schichtsystem (30 Wochenstunden + 30 Wochen freie Zeit), Azubi-Offensive („eigenen Nachwuchs produzieren", 199 Bewerbungen per Facebook)
+
+Hub-Index aktualisiert: 10 Kategorien, 6 Episoden.
+Neues Praxiskonzept: KU64 (Berlin, Mega-Einzelpraxis mit Satelliten).
+Neue Person: Dr. Stephan Ziegler.
+Bestehendes Profil ergänzt: Christian Henrici (Ep. 4, Westerburger Gesellschaft).
 
 ### 2026-03-10 — Fünfte Episode analysiert (Denta1 Clinic: Investoren Teil 2 — Helka & Neumann)
 

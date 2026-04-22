@@ -28,8 +28,12 @@ views:
       - status
       - kategorien
       - personen
+    sort:
+      - property: quelle
+        direction: ASC
     columnSize:
-      note.quelle: 189
+      note.quelle: 239
+      note.titel: 436
       note.episode: 103
   - type: table
     name: Zuletzt analysiert

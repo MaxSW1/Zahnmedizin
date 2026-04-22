@@ -155,3 +155,9 @@ Mehr interprofessionelle Module nötig: Zahnmediziner brauchen mehr Medizin, Med
 > - **Drittmittel als Strategie** — 30 % des Personals aus Industriekooperationen finanziert, auch an „armen" Unis möglich
 
 > Quelle: [[Resource Analysis/Praxisfluesterer/ep-001-der-praesident-frankenberger/transkript-strukturiert#Abschluss — Ausblick und Ratschlag|Praxisflüsterer Ep. 1 (Dez. 2020)]]
+
+---
+
+## Meine Notizen
+
+![[Resource Analysis/Praxisfluesterer/ep-001-der-praesident-frankenberger/max-notizen]]

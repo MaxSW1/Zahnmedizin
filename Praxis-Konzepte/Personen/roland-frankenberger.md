@@ -56,5 +56,5 @@ aliases: ["Roland Frankenberger", "Prof. Frankenberger", "Frankenberger"]
 
 ## Episoden-Auftritte
 
-- [[Resource Analysis/Praxisfluesterer/ep-001-der-praesident-frankenberger/der-praesident-frankenberger|Praxisflüsterer Ep. #1: Der Präsident (Dez. 2020)]]
-- [[Resource Analysis/Praxisfluesterer/ep-003-der-erfinder-oliver-ahlers/der-erfinder-oliver-ahlers|Praxisflüsterer Ep. #3: Der Erfinder (Jan. 2021)]] — erwähnt als Mitentwickler des Experten-Sets
+- [[Resource Analysis/Praxisfluesterer/ep-001-der-praesident-frankenberger/ep-001-der-praesident-frankenberger|Praxisflüsterer Ep. #1: Der Präsident (Dez. 2020)]]
+- [[Resource Analysis/Praxisfluesterer/ep-003-der-erfinder-oliver-ahlers/ep-003-der-erfinder-oliver-ahlers|Praxisflüsterer Ep. #3: Der Erfinder (Jan. 2021)]] — erwähnt als Mitentwickler des Experten-Sets
