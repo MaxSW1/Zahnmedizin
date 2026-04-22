@@ -154,3 +154,9 @@ Zwei Investorenmodelle im Vergleich:
 - **Hands-off**: Lässt sich nur BWA geben — günstiger im Betrieb, aber fragil beim Inhaberwechsel
 
 > Quelle: [[Resource Analysis/Denta1 Clinic - Dr. Stefan Helka/2022-02-zahnarztpraxen-bedroht-investoren-teil-2/transkript-strukturiert#Investorenmodelle: Zentralisierung vs. Hands-off|Denta1 Clinic: Investoren Teil 2 (Feb. 2022)]]
+
+---
+
+## Meine Notizen
+
+![[Resource Analysis/Denta1 Clinic - Dr. Stefan Helka/2022-02-zahnarztpraxen-bedroht-investoren-teil-2/max-notizen]]

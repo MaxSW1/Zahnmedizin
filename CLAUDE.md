@@ -39,7 +39,7 @@ Dieses Repo enthält ein Wissensmanagement-System für Podcast- und Video-Inhalt
 
 **Skills (manuell ausgelöst):**
 - `/analyze-episode` — Max legt Transkript in `_inbox/` ab, Claude erfragt fehlende Metadaten, erstellt Ordner, verschiebt Transkript, analysiert komplett
-- `/clean-notes` — Bereinigt Max' diktierte Notizen und trägt Erkenntnisse in den Hub ein
+- `/add-notes` — Max diktiert Notizen in Conductor, Claude bereinigt sie und hängt sie an die richtige Episoden-`max-notizen.md` an. Hub-Update wenn relevant.
 - `/ask-knowledge` — Beantwortet Fragen anhand des Hubs (5-Stufen-Retrieval: Index → MOC → Sub-Thema → Zusammenfassung → Transkript)
 - `/get-podcast-url` — Max fügt Screenshot einer Podcast-Episode bei (Spotify, Apple Podcasts etc.), Claude findet die direkte Audio-URL für MacWhisper, speichert den Screenshot als Bild-Asset und erstellt eine Inbox-Datei (`type: inbox-episode`) mit allen Metadaten und eingebettetem Screenshot. `/analyze-episode` erkennt diese Inbox-Dateien und überspringt die Metadaten-Nachfrage.
 - `/get-youtube-url` — Max fügt Screenshot eines YouTube-Videos bei, Claude extrahiert Kanal, Titel, Datum etc., findet die YouTube-URL, speichert Screenshot und erstellt eine Inbox-Datei (`type: inbox-episode`). Max fügt dann das Transkript ein (MacWhisper mit YouTube-URL) und startet `/analyze-episode`.

@@ -82,4 +82,4 @@ aliases: ["Oliver Ahlers", "Dr. Ahlers", "Ahlers", "PD Dr. Ahlers"]
 
 ## Episoden-Auftritte
 
-- [[Resource Analysis/Praxisfluesterer/ep-003-der-erfinder-oliver-ahlers/der-erfinder-oliver-ahlers|Praxisflüsterer Ep. #3: Der Erfinder (Jan. 2021)]]
+- [[Resource Analysis/Praxisfluesterer/ep-003-der-erfinder-oliver-ahlers/ep-003-der-erfinder-oliver-ahlers|Praxisflüsterer Ep. #3: Der Erfinder (Jan. 2021)]]

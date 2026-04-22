@@ -1,11 +1,11 @@
 ---
 type: max-notizen
 quelle: Praxisflüsterer Podcast
-episode: 3
-erstellt: 2026-02-21
+episode: 4
+erstellt: 2026-04-16
 bereinigt: false
 roh-version: null
 ---
 
-# Max-Notizen: Ep. #3 — Der Erfinder (PD Dr. Oliver Ahlers)
+# Notizen: Der Größte — KU64 Gründer Dr. Stephan Ziegler
 

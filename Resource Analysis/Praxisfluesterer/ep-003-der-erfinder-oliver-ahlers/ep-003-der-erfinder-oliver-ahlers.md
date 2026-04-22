@@ -215,3 +215,9 @@ Oliver Ahlers wurde in **Damaskus** geboren (Vater war Reedereikaufmann für ein
 > - **Professor May** (Neurologie, UKE) — europaweit führender Schmerzspezialist, interdisziplinärer Partner [Stand: Jan. 2021]
 > - **Ahlers' Buch zur Personalführung (2012)** — Vorschläge zur Team-Organisation in Zahnarztpraxen
 > - **Fortbildung:** Hybridformat bevorzugt (online + Präsenz parallel) — Ahlers leitet den Fortbildungs-Ausschuss der Zahnärztekammer Hamburg
+
+---
+
+## Meine Notizen
+
+![[Resource Analysis/Praxisfluesterer/ep-003-der-erfinder-oliver-ahlers/max-notizen]]

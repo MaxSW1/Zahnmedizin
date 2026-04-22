@@ -187,7 +187,7 @@ Inhalt allgemein:
 
 ### Schritt 4 — Notiz-Datei erstellen
 
-`max-notizen.md` im Episoden-Ordner erstellen mit Grundstruktur (Headings basierend auf Episoden-Themen, aber leerem Inhalt):
+`max-notizen.md` im Episoden-Ordner erstellen — nur Frontmatter + eine Hauptüberschrift, **keine thematischen Unter-Überschriften**:
 
 ```yaml
 ---
@@ -198,6 +198,9 @@ erstellt: [YYYY-MM-DD]
 bereinigt: false
 roh-version: null
 ---
+
+# Notizen: [Episodentitel]
+
 ```
 
 ### Schritt 5 — Personen und Praxen identifizieren

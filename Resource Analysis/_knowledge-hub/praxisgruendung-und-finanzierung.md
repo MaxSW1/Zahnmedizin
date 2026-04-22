@@ -1,9 +1,9 @@
 ---
 type: hub-kategorie
 titel: "Praxisgründung und Finanzierung"
-themen: ["MVZ-Gründung", "Businessplan", "Bankfinanzierung", "Investitionsvolumen", "Immobilien", "Existenzgründung", "Greenfield vs. Übernahme", "Goodwill-Transfer", "Praxisabgabe", "Praxisbewertung", "Investorenmarkt", "EBITDA-Multiples", "Due Diligence", "Transaktionsbegleitung"]
-episoden-count: 4
-letzte-aktualisierung: 2026-03-10
+themen: ["MVZ-Gründung", "Businessplan", "Bankfinanzierung", "Investitionsvolumen", "Immobilien", "Existenzgründung", "Greenfield vs. Übernahme", "Goodwill-Transfer", "Praxisabgabe", "Praxisbewertung", "Investorenmarkt", "EBITDA-Multiples", "Due Diligence", "Transaktionsbegleitung", "Mietvertrag-Strategie", "Coach-Empfehlung", "Patientenakquise", "Neupatienten-KPI"]
+episoden-count: 5
+letzte-aktualisierung: 2026-04-16
 ---
 
 # Praxisgründung und Finanzierung
@@ -44,6 +44,54 @@ Erkenntnisse zu Praxisgründung, MVZ-Aufbau, Finanzierung und Investitionen aus 
 
 > Quelle: [[Resource Analysis/Praxisfluesterer/ep-002-die-visionaere-alldent-gruender/transkript-strukturiert#Erster Standort München und Patientenakquise|Praxisflüsterer Ep. 2 (Dez. 2020)]]
 
+## Mietvertrag-Strategie bei Scale-up
+
+### KU64-Kudamm: 35 Jahre durch Optionsvertrag [Stand: Jan. 2021]
+
+Dr. Stephan Ziegler sicherte die Mietverträge seiner Mega-Praxis mit einer präzisen Strategie, die er selbst seit seiner Wilmersdorf-Gründungs-Pleite (Anfang 1990er) entwickelte:
+
+**Zieglers Mietvertrag-Prinzipien:**
+1. **Langer Grundvertrag** + **einseitig ausübbare Verlängerungsoptionen** → Kudamm über 35 Jahre gesichert
+2. **Einstiegsklausel für Kollegen** bei späterer Abgabe — schützt Abgeber vor Neuverhandlung
+3. **Vormietrecht für angrenzende Flächen** verhandeln — juristisch schwer einzutragen, aber: „Wenn du den Vermieter nicht aktiv ärgerst, fragt er dich sowieso. Und ich habe fast immer Ja gesagt." Ergebnis: Wachstum von 1.000 → 2.000 → 3.000 m² ohne Standortwechsel möglich
+4. **„Am Beginn das Ende bedenken"** — Mietvertrag von Anfang an auf Praxisabgabe hin gestrickt
+
+### Die Wilmersdorf-Lektion (Vermieter-Falle)
+
+Zieglers Gründungs-Desaster Anfang 1990er: Nach Kauf-Verhandlungen mit dem Vorgänger kündigte der Vermieter an, die Miete **zu verdoppeln** („habe sie lange nicht erhöht"). Zieglers Businessplan wurde Makulatur, er musste den Kaufpreis halbieren.
+
+**Lehre:** Beim Praxiskauf ist **der Vermieter der entscheidende Verhandlungspartner, nicht nur der Verkäufer**. Ohne langfristig verlässliche Miete ist jede Praxisbewertung wertlos.
+
+### Kaufen vs. Mieten
+
+Potsdam (2019): **Immobilie gekauft** statt gemietet. Zieglers Begründung:
+- Steuerlich nicht ideal (keine Abzugsmöglichkeit Miete)
+- Aber: „Sein eigener Vermieter zu sein ist viel besser"
+- „Sonst investiert man wahnsinnig viel Geld in fremde Substanz — und das ist immer unwägbar"
+- Wilmersdorf hat gezeigt, was fremde Substanz wirtschaftlich bedeuten kann
+
+> [!expert] Anwendung auf Max' Gründungsplanung
+> 1. Vor dem Kauf: Vermieter-Gespräch → langfristige Mietsicherheit durchverhandeln, sonst Kaufpreis drastisch drücken
+> 2. Bei Praxen mit Wachstumspotenzial: Vormietrecht für angrenzende Flächen JETZT verhandeln
+> 3. Wenn Immobilie kaufbar (Satelliten-Standorte): Steuerliche Nachteile gegen Sicherheit der „eigenen Substanz" abwägen. Bei langer Halte-Intention (30+ Jahre) überwiegt meist Kaufen.
+
+> Quelle: [[Resource Analysis/Praxisfluesterer/ep-004-der-groesste-ku64-stephan-ziegler/transkript-strukturiert#Mietvertrag Strategie Lehrlingsstück|Praxisflüsterer Ep. 4 (Jan. 2021)]]
+
+## EG-Flächen für Zahnarztpraxen (neuer Trend)
+
+### Retail-Leerstand schafft EG-Gelegenheiten [Stand: Jan. 2021]
+
+Henrici und Ziegler beobachten Anfang 2021 eine neue Entwicklung: Durch Retail-Leerstand werden zunehmend **Erdgeschoss-Flächen in Top-Innenstadtlagen** für Arztpraxen verfügbar.
+
+**Faustzahlen (Januar 2021):**
+- EG-Miete in Top-Lage (Kudamm) = ca. **6× der Oberetagen-Miete** → klassisch unwirtschaftlich
+- **Vermieterorganisationen bieten EG-Flächen inzwischen zu 50 % der letzten Ladenmiete** an
+- Vorteile EG: Sichtbarkeit, Keller für Leitungsführung (in anderen Geschossen so nicht möglich)
+
+**Zieglers Plan (Januar 2021):** Erstes EG-Projekt für eine Mitte-Filiale in Gesprächen. **Realisiert Januar 2023** als KU64 Berlin-Mitte am Hausvogteiplatz (siehe [[Resource Analysis/Praxisfluesterer/ep-004-der-groesste-ku64-stephan-ziegler/web-recherche|Web-Recherche Ep.4]]).
+
+> Quelle: [[Resource Analysis/Praxisfluesterer/ep-004-der-groesste-ku64-stephan-ziegler/transkript-strukturiert#Zukunft der EG Flächen für Zahnarztpraxen|Praxisflüsterer Ep. 4 (Jan. 2021)]]
+
 ## Patientenakquise bei Neugründung
 
 - **AllDent München 2011**: Hauptkanal war Internet (SEO für "Zahnarzt München"), dazu USP-basiertes Word-of-Mouth
@@ -52,6 +100,69 @@ Erkenntnisse zu Praxisgründung, MVZ-Aufbau, Finanzierung und Investitionen aus 
 - Nach 3-4 Monaten Business Case bestätigt — Patientenakquise war das geringste Problem, Organisation das größere
 
 > Quelle: [[Resource Analysis/Praxisfluesterer/ep-002-die-visionaere-alldent-gruender/transkript-strukturiert#Erster Standort München und Patientenakquise|Praxisflüsterer Ep. 2 (Dez. 2020)]]
+
+### Neupatienten-KPI als zentrales Steuerungssignal (KU64) [Stand: Jan. 2021]
+
+Bei KU64 ist die Anzahl **Neupatienten pro Monat** der operative Kern-KPI:
+- **Zielmarke: ~600 Neupatienten/Monat** (darunter „läuft es nicht", „wird öde")
+- Wöchentlicher **„KU64-Ticker"** an alle Mitarbeiter mit Neupatienten-Zahl + Kennzahlen
+- **Abfluss**: geschätzt 20–30 % der Neuen bleiben nicht dauerhaft (nur teilweise über Röntgenbildanforderungen messbar)
+
+**Henrici-Faustregel (Ep.4):**
+- **Erstbehandlung ist oft nicht kostendeckend** — Patient wird erst ab Termin 2 oder 3 profitabel
+- **Umsatz im Jahr 2** ist die eigentliche Steuerungsgröße zur Patientenprofitabilität
+
+### Qualitätsunterschied nach Akquisekanal (KU64)
+
+| Kanal | Verteilung KU64 Berlin | Verteilung KU64 Potsdam | Qualität |
+|-------|------------------------|-------------------------|----------|
+| **Mund-zu-Mund** | ~50 % | >50 % | Kommt mit positivem Vorurteil, angenehm, einfach |
+| **Internet** | erheblicher Anteil | — | Skeptisch, hat oft 2 Parallel-Termine, „mal sehen ob mehr Schein als Sein" |
+
+**Zahnarzt-Dichte Berlin (Henrici, Jan. 2021):** 1 Zahnarzt auf **420 Patienten** vs. DE-Schnitt 1:1.263 vs. Land 1:2.000 = **5-fach höhere Konkurrenzdichte als auf dem Land**. Hauptprofiteur der Google-Ads-Versteigerungen: Sergei Brin (Google).
+
+**KU64-Marketing-Budget (Jan. 2021):** **100.000 €/Jahr** (ohne Personal des Managers, ohne Veranstaltungen) → bei ~600 NP/Monat ≈ 14 €/Neupatient (reines Werbebudget). Marketingmanager hält das „für viel zu klein" — zeigt Preisniveau Berlin im SEO/SEA.
+
+> Quelle: [[Resource Analysis/Praxisfluesterer/ep-004-der-groesste-ku64-stephan-ziegler/transkript-strukturiert#Neupatienten KPI 600 Monat und Marketing Budget|Praxisflüsterer Ep. 4 (Jan. 2021)]], [[Resource Analysis/Praxisfluesterer/ep-004-der-groesste-ku64-stephan-ziegler/transkript-strukturiert#Patientenherkunft Mund zu Mund vs Internet|Praxisflüsterer Ep. 4 (Jan. 2021)]]
+
+### Lifestyle-Praxis als Differenzierungs-Hebel in hochkompetitiven Märkten
+
+In Märkten mit hoher Zahnarzt-Dichte (Berlin) reicht klassisches Marketing nicht mehr. Ziegler baute KU64 als „Lifestyle-Praxis":
+
+**Prinzipien:**
+1. Darf nicht nach Zahnarzt aussehen (Wellness-Atmosphäre)
+2. Nie nach Desinfektionsmittel riechen
+3. Keine Bohrgeräusche im Eingangs-/Warteraum
+4. Gastro-Kaffeemaschine + Kamin (Düfte)
+5. Alle Sinne ansprechen → Schwellenangst reduzieren
+6. Kunst/Vernissagen statt sterile Wände
+
+**Erlebnis-Marketing-Events (vor Corona alle 3 Monate):**
+- Space Party (Praxis als „Raumschiff", Budget >30.000 €)
+- Abwrackparty mit Eisbar (Prothesen eingeschmolzen)
+- Modeschauen (Laufsteg im Flur, Security nötig wegen 800 Gästen)
+- **Vernissagen (heutiges Modell)**: Künstler zahlt Vernissage, behält Erlös → bringt seinen Freundeskreis als potenzielle Neupatienten. Win-Win.
+
+**Kinderzahnheilkunde als Traffic-Motor** (KU64):
+- Direkte Rentabilität: mäßig
+- Indirekte Wirkung: Kinder → Eltern + Großeltern als Dauerpatienten
+- Ausstattung: Lachgas, Kino im Wartezimmer, Aquarium, Computerspiele, Formicarium
+
+> Quelle: [[Resource Analysis/Praxisfluesterer/ep-004-der-groesste-ku64-stephan-ziegler/transkript-strukturiert#Lifestyle Atmosphäre Gastro Konzept|Praxisflüsterer Ep. 4 (Jan. 2021)]], [[Resource Analysis/Praxisfluesterer/ep-004-der-groesste-ku64-stephan-ziegler/transkript-strukturiert#Erlebnis Marketing Space Party Vernissagen Modeschauen|Praxisflüsterer Ep. 4 (Jan. 2021)]]
+
+## Coach-Imperativ für Gründer
+
+> [!memorize] Zieglers Kern-Tipp an 25–30-Jährige
+> „**Spare niemals an deinem Coach. Der muss gut sein und der kostet dann auch was. Aber damit kommt man definitiv schneller voran.**"
+>
+> Zieglers eigene Reue: 20+ Jahre Entwicklung von Wilmersdorf-2-Stühlen zur 3.000-m²-Praxis. „Es hätte auch schneller gehen können. Aber es wäre schwierig gewesen, einen Coach zu finden, der den Weg schon gegangen ist — den gab es ja nicht." **In 2021 gibt es diese Auswahl — also sucht euch einen.**
+
+Ahlers (Ep.3) und Stelzner (Ep.2) machen übereinstimmend ähnliche Aussagen: Frühe externe Begleitung ist der größte Beschleuniger der Gründungskurve. Kandidaten in 2026:
+- [[Praxis-Konzepte/Personen/christian-henrici|Opti Health Consulting (Henrici)]] — 3.200+ Mandate Stand 2021
+- Westerburger Curriculum „Betriebswirt der Zahnmedizin" (über Opti HC)
+- AS-Akademie (Kammer/KZV)
+
+> Quelle: [[Resource Analysis/Praxisfluesterer/ep-004-der-groesste-ku64-stephan-ziegler/transkript-strukturiert#Tipp an 25 30 Jährige|Praxisflüsterer Ep. 4 (Jan. 2021)]]
 
 ## Gründer-Qualifikationen
 

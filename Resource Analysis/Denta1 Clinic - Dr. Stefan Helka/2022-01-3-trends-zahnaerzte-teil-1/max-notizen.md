@@ -9,14 +9,3 @@ roh-version: null
 
 # Notizen: 3 Trends Zahnärzte — Helka & Neumann
 
-## Greenfield-Gründung
-
-## Goodwill-Transfer-Modell
-
-## Controlling & Kennzahlen
-
-## Schichtsystem-Einführung
-
-## Alleinstellungsmerkmale
-
-## Relevanz für unsere Praxisplanung
